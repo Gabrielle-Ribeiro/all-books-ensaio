@@ -359,5 +359,6 @@ server.use(/^(?!\/(public|livros|autores|categorias)).*$/, (req, res, next) => {
 server.use(router)
 
 server.listen(8000, () => {
-  console.log("API disponível em http://localhost:8000")
+  console.log("Bem vindo a API do All Books")
+  console.log("Acesso em http://localhost:8000")
 })

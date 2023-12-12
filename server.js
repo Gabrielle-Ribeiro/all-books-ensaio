@@ -359,5 +359,5 @@ server.use(/^(?!\/(public|livros|autores|categorias)).*$/, (req, res, next) => {
 server.use(router)
 
 server.listen(8000, () => {
-  console.log("Acesse a API em http://localhost:8000")
+  console.log("Disponivel em http://localhost:8000")
 })
